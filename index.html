@@ -7,17 +7,22 @@ and open the template in the editor.
 <html>
     <head>
         <title>TODO supply a title</title>
-         <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+          	<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css" />
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        
+ 
+
+
 
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
-      <button aria-expanded="true" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <button aria-expanded="false" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -26,17 +31,39 @@ and open the template in the editor.
       <a class="navbar-brand" href="#">Brand</a>
     </div>
 
-    <div style="" aria-expanded="true" class="navbar-collapse collapse in" id="bs-example-navbar-collapse-1">
+    <div style="height: 1px;" aria-expanded="false" class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#jump">Link</a></li>
+         <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">如何将PDA的画面在电脑显示 <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#jump">借助Total Control工具</a></li>
+            <li><a href="#ok">确认启用usb调式</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+         <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li><a href="#">Action</a></li>
             <li><a href="#">Another action</a></li>
             <li><a href="#">Something else here</a></li>
-            <li class="divider">xxx</li>
+            <li class="divider"></li>
             <li><a href="#">Separated link</a></li>
             <li class="divider"></li>
             <li><a href="#">One more separated link</a></li>
@@ -57,11 +84,13 @@ and open the template in the editor.
 </nav>
 
 
+
+
         <div>
-            <a id="pda" ><h1>如何将PDA的画面在电脑上显示</h1></a> 
+            
            <a id="jump" > <h3> 1.可以使pda的画面显示在pc需要借助Total Control应用工具实现<br></h3></a> 
             <img src="../bpmstatus/draft/1" width="800"><br><br>   
-            <h3> 2.pda弹出提示启动USB调式吗？点击确定 注<br></h3>
+            <a id="ok"> <h3> 2.pda弹出提示启动USB调式吗？点击确定 注<br></h3></a>
            <img src="../bpmstatus/draft/2" width="800"><br><br> 
            <h3> 3.确认完成pc端可以自动监测到链接上的机器（注意：若是Android的手机需要开启开发者模式）</h3>
            <img src="../bpmstatus/draft/3"><br><br> 
@@ -83,13 +112,13 @@ and open the template in the editor.
            <img src="../bpmstatus/draft/12"><br><br> 
            调整过后<br>
            <img src="../bpmstatus/draft/13" ><br><br> 
-           查看某张工单里的报了哪些工<br>
+           <h3>9.查看某张工单里的报了哪些工</h3>
            <img src="../bpmstatus/draft/14" alt="*** 14.png NOT FOUND ***"><br><br>
            点击报工单号可以查单单笔信息<br>
            <img src="../bpmstatus/draft/15" alt="*** 15.png NOT FOUND ***"><br><br>
            调整尺寸过后<br>
            <img src="../bpmstatus/draft/16" alt="*** 16.png NOT FOUND ***"><br><br>
-           应做成bootswath那种的样式<br>
+           <h3> 10.应做成bootswath那种的样式</h3>
            <img src="../bpmstatus/draft/17" alt="*** 17.png NOT FOUND ***"><br><br>
            <img src="../bpmstatus/draft/18" alt="*** 18.png NOT FOUND ***"><br><br>
            下拉选项<br>
@@ -98,22 +127,24 @@ and open the template in the editor.
            <img src="../bpmstatus/draft/20" alt="*** 20.png NOT FOUND ***"><br><br>
            Table样式<br>
            <img src="../bpmstatus/draft/21" alt="*** 21.png NOT FOUND ***"><br><br>
-           <h3>T100查看报工信息</h3><br>
+           <h3>11.T100查看报工信息</h3><br>
            T100查看查看报工所用的程序<br>
            <img src="../bpmstatus/draft/22" alt="*** 22.png NOT FOUND ***"><br><br>
-           T100对应的portal上的工单单号<br>
-           <img src="../bpmstatus/draft/23" alt="*** 23.png NOT FOUND ***"><br><br>
            T100作业程序中的信息<br>
             <img src="../bpmstatus/draft/24" alt="*** 24.png NOT FOUND ***"><br><br>
             报工单号<br>
              <img src="../bpmstatus/draft/25" alt="*** 25.png NOT FOUND ***"><br><br>
-             portal页面上对应T100程序中的报工单<br>
-             <img src="../bpmstatus/draft/26" alt="*** 26.png NOT FOUND ***"><br><br>
              报工单号以及信息<br>
              <img src="../bpmstatus/draft/25" alt="*** 27.png NOT FOUND ***"><br><br>
               <img src="../bpmstatus/draft/26" alt="*** 28.png NOT FOUND ***"><br><br>
+              <h3>12.页面查看报工信息</h3>
+               T100对应的portal上的工单单号<br>
+           <img src="../bpmstatus/draft/23" alt="*** 23.png NOT FOUND ***"><br><br>
+              portal页面上对应T100程序中的报工单<br>
+             <img src="../bpmstatus/draft/26" alt="*** 26.png NOT FOUND ***"><br><br>
               portal上应该也显示不良数量<br>
               <img src="../bpmstatus/draft/29" alt="*** 29.png NOT FOUND ***"><br><br>
         </div>
     </body>
+    
 </html>
