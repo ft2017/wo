@@ -16,11 +16,12 @@ and open the template in the editor.
     </head>
     <body>
  
+<a id="top"></a>
+<a id="nav" href="#top">回到<br>顶部</a>
 
-
-
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
+<!--<div  style="position:fixed;width:9601px;height:30px;text-align:center;top:0px">-->
+<nav class="navbar navbar-default navbar-default navbar-fixed-top">
+  <div class="container-fluid" >
     <div class="navbar-header">
       <button aria-expanded="false" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         <span class="sr-only">Toggle navigation</span>
@@ -38,111 +39,125 @@ and open the template in the editor.
           <ul class="dropdown-menu" role="menu">
             <li><a href="#jump">借助Total Control工具</a></li>
             <li><a href="#ok">确认启用usb调式</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
+            <li><a href="#after">确认完成后可自动监测到设备</a></li>
+            <li><a href="#after">开启后样子</a></li>
+           
           </ul>
         </li>
          <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">用PDA查看报工信息 <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
+            <li><a href="#portal">Portal pda上的画面</a></li>
+            <li><a href="#wo">pda WO 按录入日期統計（测试）</a></li>
+            <li><a href="#search">可选择日期看当天的工单</a></li>
+            <li><a href="#baogong">单张工单报工信息</a></li>
+            
           </ul>
         </li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> bootswath样式<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
+            <li><a href="#css">手机版画面</a></li>
+            <li><a href="#dropdown">下里样式</a></li>
+            <li><a href="#button">按钮样式</a></li>
+            <li><a href="#Table">Table样式</a></li>
+          </ul>
+        </li>
+            <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">T100查看报工信息<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#cx">T100程序</a></li>
+            <li><a href="#information">T100作业程序中的信息</a></li>
+            <li><a href="#jump1">工单内的各张报工单</a></li>
+            <li><a href="#Table">Table样式</a></li>
+          </ul>
+        </li>
+          <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">页面查看报工信息<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#jump2">T100对应的portal上的工单单号</a></li>
+            <li><a href="#jump3">portal页面上对应T100程序中的报工单</a></li>
+            <li><a href="#jump4">portal上应该也显示不良数量</a></li>
+            
           </ul>
         </li>
       </ul>
-      <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
+        
+      <!--<form class="navbar-form navbar-left" role="search">-->
+<!--        <div class="form-group">
           <input class="form-control" placeholder="Search" type="text">
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
+        <button type="submit" class="btn btn-default" >Submit</button>
       </form>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-      </ul>
+        <li><a href="#">Link</a></li>-->
+      <!--</ul>-->
     </div>
   </div>
+    
 </nav>
+<!--</div>-->
 
 
 
 
         <div>
             
-           <a id="jump" > <h3> 1.可以使pda的画面显示在pc需要借助Total Control应用工具实现<br></h3></a> 
+           <a id="jump" > <h3> 1.可以使pda的画面显示在pc需要借助pc端的Total Control应用工具实现<br></h3></a> 
             <img src="../bpmstatus/draft/1" width="800"><br><br>   
-            <a id="ok"> <h3> 2.pda弹出提示启动USB调式吗？点击确定 注<br></h3></a>
+            <a id="ok"> <h3> 2.pda弹出提示启动USB调式吗？点击确定<br></h3></a>
            <img src="../bpmstatus/draft/2" width="800"><br><br> 
-           <h3> 3.确认完成pc端可以自动监测到链接上的机器（注意：若是Android的手机需要开启开发者模式）</h3>
+           <a id="after"><h3> 3.确认完成pc端可以自动监测到链接上的机器（注意：若是Android的手机需要开启开发者模式）</h3></a>
            <img src="../bpmstatus/draft/3"><br><br> 
            <img src="../bpmstatus/draft/4"><br><br> 
-           <h3> 4.开启后原本大小</h3>
+           <a id="open"><h3> 4.开启后原本大小</h3></a>
            <img src="../bpmstatus/draft/5"><br><br> 
            开启后调式大小<br>
            <img src="../bpmstatus/draft/6"><br><br> 
-           <h3> 6.打开portal画面和预期的差不多Table会自动调整到手持端的可视范围</h3>
+           <a id="portal"> <h3> 6.打开portal画面和预期的差不多Table会自动调整到手持端的可视范围</h3></a>
            <img src="../bpmstatus/draft/7"><br><br> 
            <img src="../bpmstatus/draft/8"><br><br> 
            <img src="../bpmstatus/draft/9"><br><br> 
-           <h3> 7.测试点开速查T100数据=>WO 按录入日期統計（测试）</h3>
+           <a id="wo"><h3> 7.测试点开速查T100数据=>WO 按录入日期統計（测试）</h3></a>
            <img src="../bpmstatus/draft/10"><br><br> 
            手动调式后应该有的效果<br>
            <img src="../bpmstatus/draft/11"><br><br> 
-           <h3> 8.打开2017-08-11的所有报工信息</h3>
+           <a id="search"> <h3> 8.打开2017-08-11的所有报工信息</h3></a>
            没有达到打开portal时的那种效果<br>
            <img src="../bpmstatus/draft/12"><br><br> 
            调整过后<br>
            <img src="../bpmstatus/draft/13" ><br><br> 
-           <h3>9.查看某张工单里的报了哪些工</h3>
+           <a id="baogong"><h3>9.查看某张工单里的报了哪些工</h3></a>
            <img src="../bpmstatus/draft/14" alt="*** 14.png NOT FOUND ***"><br><br>
            点击报工单号可以查单单笔信息<br>
            <img src="../bpmstatus/draft/15" alt="*** 15.png NOT FOUND ***"><br><br>
            调整尺寸过后<br>
            <img src="../bpmstatus/draft/16" alt="*** 16.png NOT FOUND ***"><br><br>
-           <h3> 10.应做成bootswath那种的样式</h3>
+           <a id="css"><h3> 10.应做成bootswath那种的样式</h3></a>s
            <img src="../bpmstatus/draft/17" alt="*** 17.png NOT FOUND ***"><br><br>
            <img src="../bpmstatus/draft/18" alt="*** 18.png NOT FOUND ***"><br><br>
-           下拉选项<br>
+           <a id="dropdown"> <h3>下拉选项</h3></a>
            <img src="../bpmstatus/draft/19" alt="*** 19.png NOT FOUND ***"><br><br>
-           按钮样式<br>
+           <a id="button"> <h3> 按钮样式</h3></a>
            <img src="../bpmstatus/draft/20" alt="*** 20.png NOT FOUND ***"><br><br>
-           Table样式<br>
+           <a id="Table" ><h3>Table样式</h3></a>
            <img src="../bpmstatus/draft/21" alt="*** 21.png NOT FOUND ***"><br><br>
-           <h3>11.T100查看报工信息</h3><br>
-           T100查看查看报工所用的程序<br>
+          
+           <a id="cx"><h3>11.T100查看报工信息<br></h3></a>
            <img src="../bpmstatus/draft/22" alt="*** 22.png NOT FOUND ***"><br><br>
-           T100作业程序中的信息<br>
+           <a id="information"><h3>T100作业程序中的信息<br></h3></a>
             <img src="../bpmstatus/draft/24" alt="*** 24.png NOT FOUND ***"><br><br>
-            报工单号<br>
+            <a id="num"><h3> 报工单号</h3></a>
              <img src="../bpmstatus/draft/25" alt="*** 25.png NOT FOUND ***"><br><br>
-             报工单号以及信息<br>
-             <img src="../bpmstatus/draft/25" alt="*** 27.png NOT FOUND ***"><br><br>
+             <a id="jump1"> <h3>工单内的各张报工单</h3></a>
+            
               <img src="../bpmstatus/draft/26" alt="*** 28.png NOT FOUND ***"><br><br>
-              <h3>12.页面查看报工信息</h3>
-               T100对应的portal上的工单单号<br>
+              
+              <a id="jump2" > <h3>T100对应的portal上的工单单号</h3></a>
            <img src="../bpmstatus/draft/23" alt="*** 23.png NOT FOUND ***"><br><br>
-              portal页面上对应T100程序中的报工单<br>
+           <a id="jump3"><h3> portal页面上对应T100程序中的报工单</h3></a>
              <img src="../bpmstatus/draft/26" alt="*** 26.png NOT FOUND ***"><br><br>
-              portal上应该也显示不良数量<br>
+             <a id="jump4"> <h3>portal上应该也显示不良数量</h3></a>
               <img src="../bpmstatus/draft/29" alt="*** 29.png NOT FOUND ***"><br><br>
         </div>
     </body>
